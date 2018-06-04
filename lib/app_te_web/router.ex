@@ -5,6 +5,10 @@ defmodule AppTeWeb.Router do
     plug :accepts, ["json"]
   end
 
+  scope "/", AppTeWeb do
+    get "/status", StatusController, :index
+  end
+
   scope "/api", AppTeWeb do
     pipe_through :api
   end
