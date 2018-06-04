@@ -5,10 +5,6 @@
 # is restricted to this project.
 use Mix.Config
 
-# General application configuration
-config :app_tester,
-  ecto_repos: [AppTester.Repo]
-
 # Configures the endpoint
 config :app_tester, AppTesterWeb.Endpoint,
   url: [host: "localhost"],
