@@ -3,7 +3,7 @@ defmodule AppTeWeb.StatusController do
 
   @version "0.0.3"
 
-  def index(conn, params) do
+  def index(conn, _params) do
     status = %{
       v: @version,
     }
