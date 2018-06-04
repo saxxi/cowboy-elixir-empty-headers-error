@@ -8,6 +8,7 @@ defmodule AppTesterWeb.Router do
   scope "/", AppTesterWeb do
     pipe_through :api
 
+    get "/", StatusController, :index
     get "/status", StatusController, :index
   end
 

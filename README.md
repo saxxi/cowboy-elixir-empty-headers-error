@@ -1,3 +1,11 @@
+# Installation
+
+```
+git clone git@github.com:saxxi/cowboy-elixir-empty-headers-error.git
+mix deps.get
+iex -S mix phx.server
+```
+
 # Error
 
 How to reproduce: 
